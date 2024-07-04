@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Properties</title>                                   
+<style>
+    .child-div{
+        background-color: blueviolet;
+        color: aquamarine;
+        display: inline-block;
+        width: 150px;
+        flex-grow:  1;
+    }
+    .parent-div{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+       
+        /* place-c justify-content: space-evenly;ontent: center;
+        width: 500px; */
+        margin: auto;
+        gap: 10px; 
+         }
+ </style>
+</head>
+<body>
+    <!-- Flex -->
+    <div class="parent-div">
+        <div class="child-div child1">
+           ACHU
+         </div>
+         <div class="child-div child2">
+            ACHU
+         </div>
+         <div class="child-div child3">
+            ACHU
+         </div>
+</body>
+</html>
